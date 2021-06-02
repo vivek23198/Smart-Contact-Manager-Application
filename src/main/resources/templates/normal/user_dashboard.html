@@ -8,9 +8,22 @@
 <body>
 
 	<section>
-		<h1>Welcome You are Normal User</h1>
-		<h2>These is your private dashboard</h2>
-		<h2>These is fragment dashboard</h2>
+		
+		<div class="container">
+			<div class="card">
+				<div class="card-body my-5">
+					<div class="container text-center">
+							<img src="" style="height: 200px; width: 200px;" class="my_profile_picture" th:src="@{'/img/contact_logo.png'}" alt="profile photo" />
+						</div>
+						
+						<h1 class="text-center mt-3 text-secondary font-italic font-weight-Light">
+							Start Adding your contact on cloud...
+						</h1>
+						
+						<a th:href="@{/user/add-contact}" class="btn btn-primary  col-12 btn-block text-uppercase mt-4"> Add New Contact </button></a>
+				</div>
+			</div>
+		</div>
 		
 	</section>
 	
